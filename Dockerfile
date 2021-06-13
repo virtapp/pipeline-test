@@ -1,7 +1,7 @@
 FROM nginx
 
-COPY wrapper.sh /
+COPY check.sh /
 
 COPY html /usr/share/nginx/html
 
-CMD ["./wrapper.sh"]
+CMD ["./check.sh"]
