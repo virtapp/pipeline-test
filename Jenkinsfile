@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/virtapp/pipiline-test.git', branch:'main'
+        git url:'https://github.com/virtapp/pipeline-test.git', branch:'main'
       }
     }
     
